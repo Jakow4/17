@@ -1,79 +1,30 @@
-\documentclass[12pt]{article}  
-\usepackage{ucs} 
-\usepackage[utf8x]{inputenc} 
-\usepackage[russian]{babel}     
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage[utf8x]{inputenc}
+\usepackage[russian]{babel}
 \begin{document}
-\begin{flushleft}
-\textbf{\large{17 Уравнений, изменивших\\ ход истории}}
-\end{flushleft}
-\begin{enumerate}
-\item \begin{minipage}[t]{100mm} 
- Теорема Пифагора                                  $a^2+b^2=c^2$
-\hfill Пифагор, 530 г до н. э. \end{minipage} 
-
-\item\begin{minipage}[t]{100mm} 
- Логарифмы                                              ${\log xy} = {\log x} + {\log y}$
-\hfill Джон Напьер, 1610 \end{minipage} 
-
-\item\begin{minipage}[t]{100mm} 
- Приращение                                            $ \frac{df}{dt} =\lim \limits_{h \to 0}\frac{f(t+h)-f(t)}{h}$
-\hfill И. Ньютон, 1668 \end{minipage} 
-
-\item\begin{minipage}[t]{100mm} 
- Закон тяготения                                     $F = G\frac{m_1 m_2}{r^2}$
-\hfill И. Ньютон, 1687 \end{minipage} 
-  
-\item\begin{minipage}[t]{100mm} 
- Квадратный корень минус единицы     $i^2 = -1 $
-\hfill Эйлер, 1750 \end{minipage} 
-
-\item\begin{minipage}[t]{100mm} 
- Формула Эйлера для многогранников  $V - E + F = 2$
-\hfill Эйлер, 1751 \end{minipage} 
-
-\item\begin{minipage}[t]{100mm} 
- Нормальное распределение                  $\Phi(x) = \frac1{\sqrt{2\pi \rho}} e^{\frac{(x-\mu)^2}{2 \rho^2}}$
-\hfill Гаусс, 1810 \end{minipage} 
-
-\item\begin{minipage}[t]{100mm} 
- Волновое уравнение                              $\frac{\partial^2 u}{\partial t^2} = c^2\frac{\partial^2 u}{\partial x^2}$
-\hfill Д'Аламбер, 1746 \end{minipage} 
-
-\item\begin{minipage}[t]{100mm} 
- Преобразование Фурье                         $f(\omega) = \int \limits_{-\infty}^{+\infty}f(x)e^{-2\pi i x \omega}dx$
-\hfill Ж. Фурье, 1822 \end{minipage} 
-
-\item\begin{minipage}[t]{100mm} 
- Уравнение Навье-Стокса                      $\rho \left( \frac{\partial \textbf{v}}{\partial t} +\textbf{v} \cdot \nabla \textbf{v} \right) = -\nabla p + \nabla \cdot \textbf{T} + \textbf{f}$
-\hfill Навье, Стокс, 1845 \end{minipage} 
-
-\item\begin{minipage}[t]{100mm} 
- Уравнения Максвелла                           $\nabla \cdot \textbf{E} = \frac \rho{\varepsilon_0}$ \quad $\nabla \cdot \textbf{H} = 0$  \\
-                                                                          $\nabla \times \textbf{E} = -\frac1{c} \frac{\partial \textbf{н}}{\partial t}$ \quad $\nabla \times \textbf{H} = \frac 1{c} \frac{\partial E}{\partial t}$
-\hfill Максвелл, 1865 \end{minipage} 
-
-\item\begin{minipage}[t]{100mm} 
- Второй закон Термодинамики               $dS \geq 0$
-\hfill Л. Больцман, 1874 \end{minipage} 
-
-\item\begin{minipage}[t]{100mm} 
- Теория относительности                       $E = mc^2$
-\hfill А. Эйнштейн, 1905 \end{minipage}
- 
-\item\begin{minipage}[t]{100mm} 
- Уравнение Шредингера                         $i\hbar \frac{\partial}{\partial t}\Psi=H\Psi$
-\hfill Шрёдингер, 1927 \end{minipage} 
-
-\item\begin{minipage}[t]{100mm} 
- Теория Информации                                $H = -\sum p(x) {\log p(x)}$
-\hfill Шэннон, 1949 \end{minipage} 
-
-\item\begin{minipage}[t]{100mm} 
- Теория Хаоса                                           $x_{t+1} = kx(1-x_t)$
-\hfill Роберт Мэй, 1975 \end{minipage} 
-
-\item\begin{minipage}[t]{100mm} 
- Уравнение Блэка-Шоулза                      $\frac 1{2}\sigma^2 S^2 \frac{\partial^2 V}{\partial S^2} + rS \frac{\partial V}{\partial S} + \frac{\partial V}{\partial t} - rV = 0$
-\hfill Ф. Блэк, М. Шоулз, 1990 \end{minipage} 
-\end{enumerate}
+  \begin{flushleft}
+  \textbf{\Large{17 Уравнений, изменивших\\ ход истории}} \\
+  \large{от Яна Стьюарта}
+  \end{flushleft}
+\begin{tabular}{l l l}
+  \textbf{Теорема Пифагора} & $a^2+b^2=c^2$ & Пифагор, 530 г до н. э. \\
+  \textbf{Логарифмы} & ${\log xy} = {\log x} + {\log y}$ & Джон Напьер, 1610 \\
+  \textbf{Приращение} & $\frac{df}{dt} =\lim \limits_{h \to 0}\frac{f(t+h)-f(t)}{h}$ & И. Ньютон, 1668 \\
+  \textbf{Закон тяготения} & $F = G\frac{m_1 m_2}{r^2}$ & И. Ньютон, 1687 \\
+  \textbf{Квадратный корень минус единицы} & $i^2 = -1$ & Эйлер, 1750 \\
+  \textbf{Формула Эйлера для многогранников} & $V - E + F = 2$ & Эйлер, 1751 \\
+  \textbf{Нормальное распределение} & $\Phi(x) = \frac1{\sqrt{2\pi \rho}} e^{\frac{(x-\mu)^2}{2 \rho^2}}$ & Гаусс, 1810 \\
+  \textbf{Волновое уравнение} & $\frac{\partial^2 u}{\partial t^2} = c^2\frac{\partial^2 u}{\partial x^2}$ & Д'Аламбер, 1746 \\
+  \textbf{Преобразование Фурье} & $f(\omega) = \int \limits_{-\infty}^{+\infty}f(x)e^{-2\pi i x \omega}dx$ & Ж. Фурье, 1822 \\
+  \textbf{Уравнение Навье-Стокса} & $\rho \left( \frac{\partial \textbf{v}}{\partial t} +\textbf{v} \cdot \nabla \textbf{v} \right) = -\nabla p + \nabla \cdot \textbf{T} + \textbf{f}$ & Навье, Стокс, 1845 \\
+  \textbf{Уравнения Максвелла} & $\nabla \cdot \textbf{E} = \frac \rho{\varepsilon_0}$ \qquad $\nabla \cdot \textbf{H} = 0$  & Максвелл, 1865 \\
+                      & $\nabla \times \textbf{E} = -\frac1{c} \frac{\partial \textbf{н}}{\partial t}$ \qquad $\nabla \times \textbf{H} = \frac 1{c} \frac{\partial E}{\partial t}$ &  \\
+  \textbf{Второй закон Термодинамики} & $dS \geq 0$ & Л. Больцман, 1874 \\
+  \textbf{Теория относительности} & $E = mc^2$ & А. Эйнштейн, 1905 \\
+  \textbf{Уравнение Шредингера} & $i\hbar \frac{\partial}{\partial t}\Psi=H\Psi$ & Шрёдингер, 1927 \\
+  \textbf{Теория Информации} & $H = -\sum p(x) {\log p(x)}$ & Шэннон, 1949 \\
+  \textbf{Теория Хаоса} & $x_{t+1} = kx(1-x_t)$ & Роберт Мэй, 1975 \\
+  \textbf{Уравнение Блэка-Шоулза} & $\frac 1{2}\sigma^2 S^2 \frac{\partial^2 V}{\partial S^2} + rS \frac{\partial V}{\partial S} + \frac{\partial V}{\partial t} - rV = 0$ & Ф. Блэк, М. Шоулз, 1990 \\
+\end{tabular}
 \end{document}
